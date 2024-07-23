@@ -6,8 +6,8 @@ This project is a Spring Boot application that extracts exchange rates from a sp
 
 - **Controller**: Handles HTTP requests and responses.
 - **Service**: Contains business logic to fetch and process exchange rate data.
-- **HTML**: Located in `src/main/resources/html`.
-- **JavaScript**: Located in `src/main/resources/js`.
+- **HTML**: Located in `src/main/resources/templates`.
+- **JavaScript**: Located in `src/main/resources/static/js`.
 
 ## Features
 
