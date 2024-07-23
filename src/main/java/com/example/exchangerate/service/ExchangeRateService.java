@@ -25,7 +25,6 @@ public class ExchangeRateService {
 
             int count = 0;
             for (Element row : rows) {
-                if (count >= 5) break;
                 Elements cols = row.select("td.l-exchangeRate__table--inner");
                 if (cols.size() >= 2) {
                     String currency = row.select("td.l-exchangeRate__table--title .title-item").get(1).text();
